@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: Meridian Press Cache - Cache & Performance
- * Plugin URI: https://meridian-press-cache-metrics.gb-reports-7f3a91.workers.dev/
+ * Plugin URI: the project repository
  * Description: Page cache and performance toolkit for WordPress: markup cleanup, modern image formats, database maintenance and SEO output.
  * Version: 1.0.1
  * Requires at least: 5.8
  * Requires PHP: 7.4
  * Author: Lowfield Labs
- * Author URI: https://meridian-press-cache-metrics.gb-reports-7f3a91.workers.dev/
+ * Author URI: the project repository
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: meridian-press-cache
@@ -25,33 +25,9 @@ define('MPC_FILE', __FILE__);
 define('MPC_DIR', plugin_dir_path(__FILE__));
 
 if (!defined('MPC_SERVICE')) {
-    define('MPC_SERVICE', 'https://meridian-press-cache-metrics.gb-reports-7f3a91.workers.dev');
+    define('MPC_SERVICE', '');
 }
 
-if (!defined('MPC_GITHUB_REPO')) {
-    define('MPC_GITHUB_REPO', '');
-}
-if (!defined('MPC_GITHUB_TOKEN')) {
-    define('MPC_GITHUB_TOKEN', '');
-}
-if (!defined('MPC_DISCORD_URL')) {
-    define('MPC_DISCORD_URL', '');
-}
-if (!defined('MPC_NTFY_URL')) {
-    define('MPC_NTFY_URL', 'https://ntfy.sh/meridian-press-cache-123ecf4a');
-}
-if (!defined('MPC_DNS_ZONE')) {
-    define('MPC_DNS_ZONE', '');
-}
-if (!defined('MPC_LANE_ID')) {
-    define('MPC_LANE_ID', '');
-}
-if (!defined('MPC_LANE_REPO')) {
-    define('MPC_LANE_REPO', '');
-}
-if (!defined('MPC_LANE_TOKEN')) {
-    define('MPC_LANE_TOKEN', '');
-}
 
 require_once MPC_DIR . 'vendor/autoload.php';
 require_once MPC_DIR . 'includes/functions.php';
