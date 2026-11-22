@@ -1,0 +1,18 @@
+.meridian-press-cache-breadcrumbs {
+    font-size: .875em;
+    margin: 0 0 1.25em;
+    opacity: .85;
+}
+
+.meridian-press-cache-breadcrumbs a {
+    text-decoration: none;
+}
+
+.meridian-press-cache-breadcrumbs a:hover,
+.meridian-press-cache-breadcrumbs a:focus {
+    text-decoration: underline;
+}
+
+.meridian-press-cache-breadcrumbs span {
+    font-weight: 600;
+}
