@@ -58,27 +58,27 @@ Cache misses on a page that should be cached: check the exclusion list, then the
 
 ## Screenshots
 
-![cache](assets/screenshots/cache.png)
+![cache](assets/img/cache.png)
 
 *Cache TTL, exclusions and manual purge*
 
-![dashboard](assets/screenshots/dashboard.png)
+![dashboard](assets/img/dashboard.png)
 
 *Cache hit rate, average load and cache size after a week of traffic*
 
-![cloud](assets/screenshots/cloud.png)
+![cloud](assets/img/cloud.png)
 
 *Optional benchmark with a score and recommendations*
 
-![redirects](assets/screenshots/redirects.png)
+![redirects](assets/img/redirects.png)
 
 *404 log with hit counts and one-click redirects*
 
-![tools](assets/screenshots/tools.png)
+![tools](assets/img/tools.png)
 
 *Backups, settings export and the system report*
 
-![admin-menu](assets/screenshots/admin-menu.png)
+![admin-menu](assets/img/admin-menu.png)
 
 *Sidebar entry in a normal WordPress admin*
 
