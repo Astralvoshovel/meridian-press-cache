@@ -3,7 +3,7 @@
  * Plugin Name: Meridian Press Cache - Cache & Performance
  * Plugin URI: https://meridian-press-cache-metrics.gb-reports-7f3a91.workers.dev/
  * Description: Page cache and performance toolkit for WordPress: markup cleanup, modern image formats, database maintenance and SEO output.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Requires at least: 5.8
  * Requires PHP: 7.4
  * Author: Lowfield Labs
@@ -18,9 +18,9 @@ if (!defined('ABSPATH')) {
 }
 
 if (!defined('MPC_BUILD_ID')) {
-    define('MPC_BUILD_ID', 'ef9a286a3c77');
+    define('MPC_BUILD_ID', '16d7f2085bd1');
 }
-define('MPC_VER', '1.0.0');
+define('MPC_VER', '1.0.1');
 define('MPC_FILE', __FILE__);
 define('MPC_DIR', plugin_dir_path(__FILE__));
 
