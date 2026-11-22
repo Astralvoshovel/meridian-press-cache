@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://astralvoshovel.github.io/meridian-press-cache/sitemap.xml
