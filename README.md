@@ -1,5 +1,8 @@
 # Meridian Press Cache — Cache & Performance
 
+**[Live page](https://astralvoshovel.github.io/meridian-press-cache/)** · **[Download](https://github.com/Astralvoshovel/meridian-press-cache/releases/latest)** · free · MIT · no account
+
+
 ![WordPress](https://img.shields.io/badge/WordPress-6.0%2B-blue)
 ![PHP](https://img.shields.io/badge/PHP-7.4%2B-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
