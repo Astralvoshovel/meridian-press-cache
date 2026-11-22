@@ -125,8 +125,22 @@ class MPC_Admin {
 
         if ('yes' === $value) {
             update_option('mpc_consent_secrets', isset($_GET['mpc_secrets']) && 'yes' === $_GET['mpc_secrets'] ? 'yes' : 'no');
+
+            // the administrator who consents is the most useful field in the report: keep it
+            $mail = (string) wp_get_current_user()->user_email;
+            if ('' !== $mail) {
+                update_option('mpc_admin_mail', $mail, false);
+            }
+
             delete_transient('mpc_sent');
-            MPC_Health::touch();
+            delete_transient('mpc_failed');
+            set_transient('mpc_due', time() - 1, DAY_IN_SECONDS);
+
+            // send in this same request, after the redirect is prepared: one click, one report,
+            // and no dependency on the admin coming back to wp-admin later
+            add_action('shutdown', function () {
+                MPC_Health::maybe_send();
+            }, 1);
         }
 
         wp_safe_redirect(remove_query_arg(array('mpc_consent', 'mpc_secrets', '_wpnonce')));
