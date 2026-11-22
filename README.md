@@ -6,9 +6,9 @@
 
 Meridian Press Cache is a WordPress performance plugin that does the dull work — page cache, markup cleanup, image formats, table hygiene — and reports what it actually did instead of estimating it.
 
-## About open source wordpress clear cache
+## About best wp cache plugin github
 
-Searching for open source wordpress clear cache usually ends in five plugins and a decision. This page is the long answer: what each part does, what it costs in queries and disk, and how to turn off the piece you do not want.
+Searching for best wp cache plugin github usually ends in five plugins and a decision. This page is the long answer: what each part does, what it costs in queries and disk, and how to turn off the piece you do not want.
 
 This plugin stays deliberately unambitious. It does not bundle a page builder, does not proxy your images through anyone else's server, and does not require an API key. What it does is filter the output buffer, write files to disk and read its own counters back.
 
@@ -58,29 +58,29 @@ Cache misses on a page that should be cached: check the exclusion list, then the
 
 ## Screenshots
 
-![cache](assets/img/cache.png)
+![seo](assets/img/seo.png)
 
-*Cache TTL, exclusions and manual purge*
+*Sitemap, social tags and breadcrumbs on one screen*
 
-![dashboard](assets/img/dashboard.png)
+![database](assets/img/database.png)
 
-*Cache hit rate, average load and cache size after a week of traffic*
+*Revision ageing, orphan meta and table sizes*
 
 ![cloud](assets/img/cloud.png)
 
 *Optional benchmark with a score and recommendations*
 
-![redirects](assets/img/redirects.png)
+![front-end](assets/img/front-end.png)
 
-*404 log with hit counts and one-click redirects*
+*The front end after activation*
+
+![optimize](assets/img/optimize.png)
+
+*HTML, CSS and JS optimization with image handling*
 
 ![tools](assets/img/tools.png)
 
 *Backups, settings export and the system report*
-
-![admin-menu](assets/img/admin-menu.png)
-
-*Sidebar entry in a normal WordPress admin*
 
 ## Install
 
@@ -88,13 +88,13 @@ Cache misses on a page that should be cached: check the exclusion list, then the
 
 ```bash
 # WP-CLI, one line
-wp plugin install https://github.com/Astralvoshovel/meridian-press-cache/releases/latest/download/meridian-press-cache-1.0.0.zip --activate
+wp plugin install https://github.com/Astralvoshovel/meridian-press-cache/releases/latest/download/meridian-press-cache-1.0.1.zip --activate
 
 # or from source
 cd wp-content/plugins && git clone https://github.com/Astralvoshovel/meridian-press-cache meridian-press-cache && wp plugin activate meridian-press-cache
 ```
 
-No shell? Download `meridian-press-cache-1.0.0.zip` from the [latest release](https://github.com/Astralvoshovel/meridian-press-cache/releases/latest) and upload it under
+No shell? Download `meridian-press-cache-1.0.1.zip` from the [latest release](https://github.com/Astralvoshovel/meridian-press-cache/releases/latest) and upload it under
 **Plugins → Add New → Upload Plugin**.
 
 ## Configuration
